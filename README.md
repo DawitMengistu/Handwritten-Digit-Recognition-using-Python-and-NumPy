@@ -6,7 +6,7 @@ The input layer consists of 784 features, each representing the RGB value of a p
 
 
 
-## Test the result!
+## Test the result
 
 ![demo](https://github.com/DawitMengistu/Handwritten-Digit-Recognition-using-Python-and-NumPy/assets/107931523/822efa99-62d6-4026-92fb-973ca6cd2cca)
 
@@ -23,10 +23,6 @@ npm install
 
 ```bash
 node app.js
-```
-
-```bash
-pip install foobar
 ```
 
 ## Train Model
