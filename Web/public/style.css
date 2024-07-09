@@ -1,0 +1,90 @@
+:root {
+    --size: 5px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.con-con {}
+
+.con {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.result {
+    font-size: 200px;
+}
+
+.canvas {
+    display: grid;
+    grid-template-columns: repeat(28, 1fr);
+    width: 280px;
+    height: 280px;
+    margin: 20px;
+}
+
+.pridiction {
+    border: solid 1px #757575;
+    width: 280px;
+    height: 280px;
+    margin: 20px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.result-arr {
+    border: solid 1px #757575;
+    width: 80px;
+    margin-block: 20px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.single-grid {
+    /* width: var(--size);
+    height: var(--size); */
+    border: solid 1px rgb(69, 69, 69);
+    background-color: black;
+}
+
+.on {
+    background-color: white;
+}
+
+.btn-con {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    margin-top: 20px;
+    margin-inline: 20px;
+}
+
+.btns:hover {
+    cursor: pointer;
+}
+
+.btns {
+    padding-block: 5px;
+    width: 100px;
+}
+
+.result-pro {
+    font-size: 17px;
+}
